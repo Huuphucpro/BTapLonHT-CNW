@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box  ;
+}
+:root{
+    --main-color: rgb(11, 207, 152);
+    --main-text-color: rgb(39, 39, 39);
+}
+/* home Page */
+#menu .left-menu img{
+    width: 300px;
+}
+#menu{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+#menu .right-menu a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: var(--main-text-color);
+}
+#menu .right-menu i{
+    padding: 0 5px;
+    font-size: 20px;
+}
