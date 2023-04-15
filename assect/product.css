@@ -1,0 +1,8 @@
+#main{
+    padding: 20px 5%;
+}
+#main .tagProduct{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
