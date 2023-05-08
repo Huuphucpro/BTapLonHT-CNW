@@ -1,0 +1,28 @@
+.body{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.left .left-header {
+    display: flex;
+    justify-content: space-between;
+}
+.left .left-header h3{
+    margin: 0;
+}
+.left .left-body input{
+    padding: 10px;
+    font-weight: 550;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.right .nameProduct img{
+    height: 60px;
+}
+.left select {
+    margin-top: 15px;
+    width: 48%;
+    padding: 13px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: 550;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assect/thanhtoan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assect/main.css">
+    <title>Thanh toán</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="header" style="border: none;">
+            <div class="left-menu">
+                <a href="/homePage.html"><img src="./assect/img/logo.png" alt=""></a>
+            </div>
+        </div>
+        <div class="body">
+            <div class="container row">
+                <div class="left col-sm-8" style="padding: 0 30px;">
+                    <div class="left-header">
+                        <h3>Thông tin thanh toán</h3>
+                        <a href="#" style="color: black;"><p><i class="fas fa-chevron-left"></i> Back to cart</p></a>
+                    </div>
+                    <div class="left-body">
+                        <input id="hoten" type="text" placeholder="Họ và tên" style="width: 100%; margin: 15px 0;">
+                        <input type="text" placeholder="Số điện thoại" style="width: 48%;">
+                        <input type="text" placeholder="Địa chỉ email" style="width: 48%; float: right;" >
+                        <select class="tinhThanh" id="" aria-placeholder="chon tinh thanh pho">
+                            <option value="">Chọn tỉnh thành</option>
+                            <option value="">Ho Chi Minh</option>
+                            <option value="">Ha Noi</option>
+                            <option value="">Da Nang</option>
+                        </select>
+                        <select class="tinhThanh" id="" aria-placeholder="chon tinh thanh pho" style="float: right;">
+                            <option value="">Chọn quận/huyện</option>
+                            <option value="">Ho Chi Minh</option>
+                            <option value="">Ha Noi</option>
+                            <option value="">Da Nang</option>
+                        </select>
+                        <select class="tinhThanh" id="" aria-placeholder="chon tinh thanh pho">
+                            <option value="">Chọn xã/phường</option>
+                            <option value="">Ho Chi Minh</option>
+                            <option value="">Ha Noi</option>
+                            <option value="">Da Nang</option>
+                        </select>
+                        <input type="text" placeholder="Địa chỉ" style="width: 48%; float: right; margin-top: 15px;" >
+                        <div class="form-check-inline" style="padding-top: 15px;">
+                            <label class="form-check-label" for="check1">
+                              <input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="something"> Tạo tài khoản mới?
+                            </label>
+                        </div>
+                        <textarea name="" id="" cols="30" rows="5" style="width: 100%; margin: 15px 0;">Ghi chú cho đơn hàng</textarea>
+                    </div>
+                </div>
+                <div class="right col-sm-4" style="padding: 0 30px;">
+                    <div class="nameProduct">
+                        <img src="./assect/img/product-img1.JPG" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="goToTop" href="#top"><i class="fas fa-angle-up"></i></a>
+</body>
+</html>
