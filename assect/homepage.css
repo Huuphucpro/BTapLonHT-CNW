@@ -49,7 +49,7 @@
     margin: 10px;
 }
 #main .newProduct a div:hover, #main .topInWeek a div:hover{
-    margin: 9px;
+    margin: 10px;
 }
 #main .newProduct img, #main .topInWeek img{
     width: 100%;
