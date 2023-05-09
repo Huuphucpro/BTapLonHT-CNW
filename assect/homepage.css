@@ -45,8 +45,11 @@
 #main .newProduct, #main .topInWeek{
     display: grid;
 }
-#main .newProduct > div, #main .topInWeek > div{
+#main .newProduct a div, #main .topInWeek a div{
     margin: 10px;
+}
+#main .newProduct a div:hover, #main .topInWeek a div:hover{
+    margin: 9px;
 }
 #main .newProduct img, #main .topInWeek img{
     width: 100%;
