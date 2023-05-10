@@ -1,0 +1,18 @@
+#main{
+    padding: 50px 4%;
+    height: 700px;
+}
+#main .search-bar{
+    width: 100%;
+    background-color: #eeeeec;
+    padding: 15px 10px;
+    border-radius: 25px;
+}
+#main .left .nameCategories{
+    display: flex;
+    justify-content: space-between;
+}
+#main .left .nameCategories a{
+    color: black;
+    text-decoration: none;
+}
