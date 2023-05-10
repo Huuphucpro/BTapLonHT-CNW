@@ -8,6 +8,13 @@
 }
 #main .product{
     display: grid;
+    padding: 0 8%;
+}
+@media only screen and (min-width: 1560px) {
+    #main .product{
+        padding: 0 21%;
+    }
+    
 }
 #main .product .imgProduct{
     grid-column: 1/span 1;
@@ -18,12 +25,14 @@
     width: 600px;
     float: right;
     padding-right: 50px;
+    padding-left: auto;
     position: relative;
 }
-#main .product .imgProduct .subIMG{
-    width: 100px;
-    display: flex;
-    position: absolute;
+#main .product .imgProduct .subIMG img{
+    padding-top: 10px;
+    padding-right: 5px;
+    width: 70px;
+    display: inline;
 }
 #main .product .inforProduct{
     grid-column: 2/span 1;
@@ -40,6 +49,7 @@
     padding: 15px;
     width: 200px;
     border-radius: 30px;
+    margin: 5px 0
 }
 .descProduct{
     padding-bottom: 50px;
@@ -55,6 +65,12 @@
 .relatedProduct .linkProduct a{
     margin: 0 10px;
 }
+.relatedProduct .linkProduct a h5{
+    text-align: center;
+}
 .relatedProduct .linkProduct a img{
     width: 99%;
+}
+.relatedProduct .linkProduct div div{
+    padding: 5px 0 15px;
 }
