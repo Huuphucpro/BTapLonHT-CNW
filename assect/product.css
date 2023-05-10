@@ -13,21 +13,25 @@
     grid-column: 1/span 1;
     grid-row: 1/span 1;
 }
+#main .product .imgProduct .mainIMG img{
+    display: block;
+    width: 600px;
+    float: right;
+    padding-right: 50px;
+    position: relative;
+}
+#main .product .imgProduct .subIMG{
+    width: 100px;
+    display: flex;
+    position: absolute;
+}
 #main .product .inforProduct{
     grid-column: 2/span 1;
     grid-row: 1/span 1;
 }
 #main .product .inforProduct .titleProduct h2 , #main .product .inforProduct .titleProduct p{
-    padding: 10px 0 15px;
+    padding: 30px 0 35px;
     line-height: 2.0;
-}
-#main .product .inforProduct .optionProduct{
-    padding: 25px 0;
-}
-#main .product .inforProduct .optionProduct select{
-    outline: none;
-    padding: 10px;
-    margin: 5px 0;
 }
 #main .product .inforProduct .quantityProduct button{
     outline: none;
@@ -36,4 +40,21 @@
     padding: 15px;
     width: 200px;
     border-radius: 30px;
+}
+.descProduct{
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+.relatedProduct .linkProduct{
+    display: flex;
+    justify-content: space-between;
+}
+.relatedProduct .linkProduct a:hover{
+    background-color: rgb(233, 233, 233);
+}
+.relatedProduct .linkProduct a{
+    margin: 0 10px;
+}
+.relatedProduct .linkProduct a img{
+    width: 99%;
 }
