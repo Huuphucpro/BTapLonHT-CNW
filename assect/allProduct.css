@@ -1,6 +1,6 @@
 #main{
     padding: 50px 4%;
-    height: 700px;
+    height: 900px;
 }
 #main .search-bar{
     width: 100%;
@@ -15,4 +15,51 @@
 #main .left .nameCategories a{
     color: black;
     text-decoration: none;
+}
+#main .right .headerRight{
+    padding: 10px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+#main .right .headerRight select{
+    padding: 5px;
+    width: 230px;
+}
+#main .right .bodyRight{
+    display: grid;
+}
+#main .right .bodyRight a{
+    margin: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+#main .right .bodyRight a img{
+    padding-bottom: 10px;
+    width: 100%;
+}
+#main .right .bodyRight .allProduct1{
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+}
+#main .right .bodyRight .allProduct2{
+    grid-column: 2/span 1;
+    grid-row: 1/span 1;
+}
+#main .right .bodyRight .allProduct3{
+    grid-column: 3/span 1;
+    grid-row: 1/span 1;
+}
+#main .right .bodyRight .allProduct4{
+    grid-column: 1/span 1;
+    grid-row: 2/span 1;
+}
+#main .right .bodyRight .allProduct5{
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
+}
+#main .right .bodyRight .allProduct6{
+    grid-column: 3/span 1;
+    grid-row: 2/span 1;
 }
