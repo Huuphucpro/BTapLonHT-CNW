@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assect/login.css">
+    <link rel="stylesheet" href="./assect/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="./assect/img/favicon.jpg">
+    <title>Tài khoản</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="./homePage.html">
+                <div class="left-menu">
+                    <img src="./assect/img/logo.png" alt="">
+                </div>
+            </a>
+            <div class="right-menu">
+                <a href="./allProduct.html">Product</a>
+                <a href="">GroupBuy</a>
+                <a href="">DIY Your Cable</a>
+                <a href="">Other</a>
+                <i class="fas fa-search"></i>
+                <a href="./login.html"><i class="fas fa-user"></i></a>
+                <a href="./thanhtoan.html"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <div id="main">
+            <div class="left col-sm-6">
+                <h4>Đăng nhập</h4>
+                <div class="container1">
+                    <label for="email">Tên đăng nhập hoặc email</label>
+                    <input type="email" class="form-control" id="email" style="width: 480px; margin-bottom: 15px;">
+                    <label for="password">Mật khẩu</label>
+                    <input type="password" class="form-control" id="password" style="width: 480px;">
+                    <div class="left-footer" style="text-align: center;">
+                        <div class="checkbox">
+                            <label><input type="checkbox" name="" id="">Ghi nhớ mật khẩu</label>
+                        </div>
+                        <a href="./homePage.html"><button class="btn">Đăng nhập</button></a>
+                        <p>Quên mật khẩu?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right col-sm-6">
+                <h4>Đăng ký</h4>
+                <div class="container1">
+                    <label for="mailAddress">Địa chỉ email</label>
+                    <input type="email" class="form-control" id="mailAddress" style="width: 480px;">
+                    <p>A link to set a new password will be sent to your email address</p>
+                    <p>Thông tin cá nhân của bạn sẽ được sử dụng để tăng cường trải nghiệm sử dụng website, để quản lý truy cập vào tài khoản của bạn, và cho các mục đích cụ thể khác được mô tả trong chính sách riêng tư của chúng tôi.</p>
+                    <div style="text-align: center;">
+                        <button class="btn">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="top-footer">
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 262 Lê Đức Thọ, Phường 6, Gò Vấp, Hồ Chí Minh.</p>
+                    <p><i class="fas fa-phone"></i> 0853821763</p>
+                    <p><i class="fas fa-envelope"></i> 76customize@gmail.com</p>
+                </div>
+                <div class="newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Để lại email của bạn để nhận thông tin mới nhất về sản phẩm, chương trình cũng nha khuyến mãi của 76 Customize nhé!</p>
+                    <div class="subscribe">
+                        <input type="email" name="" id="" placeholder="your@email.com" style="width: 60%; padding: 5px 10px 0;">
+                        <button style="float: right; padding: 3px 20px; font-weight: 550;">Subscribe</button>
+                    </div>
+                </div>
+                <div class="fanpage">
+                    <style>
+                        @media (max-width: 740px) {
+                            .fb-page{
+                                display: none;
+                            }
+                        }
+                    </style>
+                        <div class="fb-page" data-href="https://www.facebook.com/76Customize/" data-tabs="timeline" data-width="" data-height="220" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/76Customize/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/76Customize/">76 Customize</a></blockquote></div>
+                </div>
+            </div>
+            <div class="bot-footer">
+                <p>@2023 76Customize - Bản quyền thuộc về 76Customize</p>
+            </div>
+            <a class="goToTop" href="#top"><i class="fas fa-angle-up"></i></a>
+        </footer>
+    </div>
+</body>
+</html>

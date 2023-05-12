@@ -45,6 +45,9 @@
 #main .newProduct, #main .topInWeek{
     display: grid;
 }
+#main .newProduct a, #main .topInWeek a{
+    text-decoration: none;
+}
 #main .newProduct a div, #main .topInWeek a div{
     margin: 10px;
 }
