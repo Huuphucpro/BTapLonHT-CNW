@@ -72,60 +72,68 @@
                 </div>
             </div>
             <div class="descProduct">
-                <div class="tableDesc">
-                    <table class="table table-bordered" style="width: 50%; margin: 50px auto;">
-                        <tbody>
-                            <tr>
-                                <td>Sleeves:</td>
-                                <td>Double sleeved paracord & PET</td>
-                            </tr>
-                            <tr>
-                                <td>Coil Length:</td>
-                                <td>Uncoil</td>
-                            </tr>
-                            <tr>
-                                <td>Connector to host lenght:</td>
-                                <td>90cm</td>
-                            </tr>
-                            <tr>
-                                <td>Connector to keyboard lenght:</td>
-                                <td>10cm</td>
-                            </tr>
-                            <tr>
-                                <td>Heatshrink:</td>
-                                <td>As shown (contact to change)</td>
-                            </tr>
-                            <tr>
-                                <td>Connector:</td>
-                                <td>Gx12 Silver</td>
-                            </tr>
-                            <tr>
-                                <td>Connection:</td>
-                                <td>USB-A to Type C</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p style="text-align: center; line-height: 2; ">
-                    <b>Details: </b></br>
+                <div class="sliderTab">
+                    <!-- <ul class="nav-tabs">
+                        <li class="nav-item active">Mô tả</li>
+                        <li class="nav-item">Đánh giá</li>
+                    </ul> -->
+                    <div class="content-tabs">
+                        <div class="tableDesc"  id="tab1">
+                            <table class="table table-bordered" style="width: 50%; margin: 50px auto;">
+                                <tbody>
+                                    <tr>
+                                        <td>Sleeves:</td>
+                                        <td>Double sleeved paracord & PET</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Coil Length:</td>
+                                        <td>Uncoil</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Connector to host lenght:</td>
+                                        <td>90cm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Connector to keyboard lenght:</td>
+                                        <td>10cm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Heatshrink:</td>
+                                        <td>As shown (contact to change)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Connector:</td>
+                                        <td>Gx12 Silver</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Connection:</td>
+                                        <td>USB-A to Type C</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p style="text-align: center; line-height: 2; ">
+                            <b>Details: </b></br>
+        
+                                High quality 4-core cable for usb cable with 2 layers of protection/anti-interference. </br>
+        
+                                Paracord cover made from Polyester with extreme elasticity and strength. </br>
+        
+                                The outer mesh yarn is made of PET plastic to create a variety of colors and protect the wire better than the single-layer wire on the market. </br>
+        
+                                <b>Time to complete: </b></br>
+        
+                                1-3 working days. May take longer (will inform) </br>
+        
+                                Please contact to us if you need support. Thank you!.
+                            </p>
+                        </div>
+                        <div class="rateProduct" id="tab2">
 
-                        High quality 4-core cable for usb cable with 2 layers of protection/anti-interference. </br>
-
-                        Paracord cover made from Polyester with extreme elasticity and strength. </br>
-
-                        The outer mesh yarn is made of PET plastic to create a variety of colors and protect the wire better than the single-layer wire on the market. </br>
-
-                        <b>Time to complete: </b></br>
-
-                        1-3 working days. May take longer (will inform) </br>
-
-                        Please contact to us if you need support. Thank you!.
-                    </p>
-                </div>
-                <div class="rateDesc">
-
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="relatedProduct" style="padding: 30px 0 50px;">
+            <div class="relatedProduct" style="padding: 30px 5% 50px;">
                 <h4 style="text-align: center; font-weight: bold; padding: 20px 0;">Sản phẩm tương tự</h4>
                 <div class="linkProduct">
                     <a href="./product.html" style="text-decoration: none;">
@@ -201,4 +209,27 @@
         </footer>
     </div>
 </body>
+<script>
+    let navtabs = document.querySelectorAll('.sliderTab');
+        navtabs.forEach(item => {
+            item.addEventListener('click', function(event){
+                if(event.target.classList.contains('nav-item')){
+                   
+                    let lastActive = item.querySelector('li.active');
+                    let newActive = event.target;
+                    let bgActive = item.querySelector('.bg-active');
+        
+                    lastActive.classList.remove('active');
+                    newActive.classList.add('active');
+                    bgActive.style.left = newActive.offsetLeft + 'px';
+        
+                    let lastContentActive = item.querySelector('.tab.active');
+                    let newContentActive = document.getElementById(newActive.dataset.target);
+                    lastContentActive.classList.remove('active');
+                    newContentActive.classList.add('active');
+        
+                }
+            })
+        })
+        </script>
 </html>

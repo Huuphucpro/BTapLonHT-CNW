@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Helvetica;
+    user-select: none;
 }
 :root{
     --main-color: rgb(11, 207, 152);
